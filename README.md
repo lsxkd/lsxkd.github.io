@@ -17,3 +17,20 @@
  <p> 13：逐字输出  <a href="../effects/逐字输出.html" target="_blank">逐字输出</a></p>
  <p> 14：焦点图  <a href="../effects/焦点图/焦点图.html" target="_blank">焦点图</a></p>
  
+
+
+
+
+
+
+
+
+
+<h1 style="text-align:center;width:100%;">手机端效果（必须在手机端看）</h1>
+
+自己平时写的一些小特效：
+
+ <p> 1：手机三级联动城市选择特效   <a href="../effects/手机三级联动城市选择特效/index.html" target="_blank">手机三级联动城市选择特效</a></p>
+ <p> 2：mobile移动端键盘   <a href="../effects/mobile移动端键盘.html" target="_blank">mobile移动端键盘</a></p>
+ <p> 3：移动端左滑动删除效果   <a href="../effects/移动端左滑动删除效果.html" target="_blank">移动端左滑动删除效果</a></p>
+
