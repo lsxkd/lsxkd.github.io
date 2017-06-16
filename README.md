@@ -30,7 +30,7 @@
 
 自己平时写的一些小特效：
 
- <p> 1：手机三级联动城市选择特效   <a href="../effects/手机三级联动城市选择特效/index.html" target="_blank">手机三级联动城市选择特效</a></p>
- <p> 2：mobile移动端键盘   <a href="../effects/mobile移动端键盘.html" target="_blank">mobile移动端键盘</a></p>
- <p> 3：移动端左滑动删除效果   <a href="../effects/移动端左滑动删除效果.html" target="_blank">移动端左滑动删除效果</a></p>
+ <p> 1：手机三级联动城市选择特效   <a href="../effects/phone/手机三级联动城市选择特效/index.html" target="_blank">手机三级联动城市选择特效</a></p>
+ <p> 2：mobile移动端键盘   <a href="../effects/phone/mobile移动端键盘.html" target="_blank">mobile移动端键盘</a></p>
+ <p> 3：移动端左滑动删除效果   <a href="../effects/phone/移动端左滑动删除效果.html" target="_blank">移动端左滑动删除效果</a></p>
 
