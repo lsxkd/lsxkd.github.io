@@ -1,5 +1,6 @@
 <h1 style="text-align:center;width:100%;">欢迎来到蓝色星空岛</h1>
 
+<h3>PC端效果</h3>
 自己平时写的一些小特效：
 
  <p> 1：黑客效果特效   <a href="../effects/黑客效果特效.html" target="_blank">黑客效果特效</a></p>
@@ -26,7 +27,7 @@
 
 
 
-<h1 style="text-align:center;width:100%;">手机端效果（必须在手机端看）</h1>
+<h3>手机端效果（必须在手机端看）</h3>
 
 自己平时写的一些小特效：
 
