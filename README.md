@@ -15,4 +15,5 @@
  <p> 8：菜单伸缩  <a href="../effects/菜单伸缩.html" target="_blank">菜单伸缩</a></p>
  <p> 6：输入中文输出拼音  <a href="../effects/输入中文输出拼音.html" target="_blank">输入中文输出拼音</a></p>
  <p> 7：逐字输出  <a href="../effects/逐字输出.html" target="_blank">逐字输出</a></p>
+ <p> 7：焦点图  <a href="../effects/焦点图/焦点图.html" target="_blank">焦点图</a></p>
  
