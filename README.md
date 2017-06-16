@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/lsxkd/lsxkd.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>黑客效果特效</title>
+	<style>
+		*{padding:0;margin:0;}
+		html{overflow:hidden;}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" style="background:#111"></canvas>
+	
+	<script>
+		window.onload = function(){
+			//获取画布对象
+			var canvas = document.getElementById("canvas");
+			//获取画布的上下文
+			var context = canvas.getContext("2d");
+			//获取浏览器的宽高
+			var W = window.innerWidth;
+			var H = window.innerHeight;
+			//设置canvas的宽高
+			canvas.width = W;
+			canvas.height = H;
+			//每个文字的大小
+			var fontSize = 16;
+			//计算浏览器一共可以放置多少列
+			var colunms = Math.floor(W / fontSize);
+			//记录每列文字的Y坐标
+			var drops = [];
+			//给每一个文字初始化一个起始点的位置
+			for(var i = 0;i<colunms;i++){
+				drops.push(0);
+			}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			//要滚动的文字
+			var str = "javascript html5 canvas";
+			//4:fillText(str,x,y);原理就是去更改y的坐标位置
+			//绘画的函数
+			function draw(){
+				context.fillStyle = "rgba(0,0,0,0.05)";
+				context.fillRect(0,0,W,H);
+				//给字体设置样式
+				context.font = "700 "+fontSize+"px 微软雅黑";
+				//给字体添加颜色
+				context.fillStyle = "#00cc33";
+				//写入画布中
+				for(var i=0;i<colunms;i++){
+					var index = Math.floor(Math.random() * str.length);
+					var x = i*fontSize;
+					var y = drops[i]*fontSize;
+					context.fillText(str[index],x,y);
+					//如果要改变时间，肯定就是改变每次他的起点
+					if( y >= canvas.height && Math.random() > 0.99){
+						drops[i] = 0;
+					}
+					drops[i]++;
+				}
+			};
+			function randColor(){
+				var r = Math.floor(Math.random() * 256);
+				var g = Math.floor(Math.random() * 256);
+				var b = Math.floor(Math.random() * 256);
+				return "rgb(" + r +"," + g +"," + b +")";
+			}
 
-### Markdown
+			draw();
+			setInterval(function(){
+				draw()
+			},30)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+		}
+	</script>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lsxkd/lsxkd.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
