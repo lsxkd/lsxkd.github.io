@@ -1,4 +1,4 @@
-<h1 style="text-align:center;">欢迎来到蓝色星空岛</h1>
+<h1 style="text-align:center;width:100%;">欢迎来到蓝色星空岛</h1>
 
 自己平时写的一些小特效：
 
