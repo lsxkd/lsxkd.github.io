@@ -19,6 +19,7 @@
  <p> 14：焦点图  <a href="../effects/焦点图/焦点图.html" target="_blank">点击查看</a></p>
  <p> 15：map选择省市区加输入详细地址定位  <a href="../effects/地图/map选择省市区加输入详细地址定位.html" target="_blank">点击查看</a></p>
  <p> 16：3D旋转  <a href="../effects/3D旋转/3D旋转.html" target="_blank">点击查看</a></p>
+ <p> 17：获取浏览器窗口各个属性  <a href="../effects/获取浏览器窗口各个属性/获取浏览器窗口各个属性.html" target="_blank">点击查看</a></p>
  
 
 
