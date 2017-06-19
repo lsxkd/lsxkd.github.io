@@ -1,4 +1,6 @@
+<head>
 <title>蓝色星空岛</title>
+</head>
 <h1 style="text-align:center;width:100%;">欢迎来到蓝色星空岛</h1>
 
 <h3>PC端效果</h3>
