@@ -17,6 +17,7 @@
  <p> 12：输入中文输出拼音  <a href="../effects/输入中文输出拼音.html" target="_blank">点击查看</a></p>
  <p> 13：逐字输出  <a href="../effects/逐字输出.html" target="_blank">点击查看</a></p>
  <p> 14：焦点图  <a href="../effects/焦点图/焦点图.html" target="_blank">点击查看</a></p>
+ <p> 14：map选择省市区加输入详细地址定位  <a href="../effects/地图/map选择省市区加输入详细地址定位.html" target="_blank">点击查看</a></p>
  
 
 
@@ -34,4 +35,5 @@
  <p> 1：手机三级联动城市选择特效   <a href="../effects/phone/手机三级联动城市选择特效/index.html" target="_blank">点击查看</a></p>
  <p> 2：mobile移动端键盘   <a href="../effects/phone/mobile移动端键盘.html" target="_blank">点击查看</a></p>
  <p> 3：移动端左滑动删除效果   <a href="../effects/phone/移动端左滑动删除效果.html" target="_blank">点击查看</a></p>
+ <p> 14：map2输入地址定位或者点击地图定位  <a href="../effects/地图/map2输入地址定位或者点击地图定位.html" target="_blank">点击查看</a></p>
 
