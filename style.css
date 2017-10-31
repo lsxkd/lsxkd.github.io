@@ -204,3 +204,4 @@ footer p + p { float: right; }
 @media print, screen and (max-width:740px) { body { padding: 0; }
   section{float:none;width:100%;border:0 !important;}
  }
+ section ol li{margin-bottom:20px;}
